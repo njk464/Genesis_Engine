@@ -1,0 +1,70 @@
+Genesis Engine 
+Current Version: v0.0.1
+
+Created By: Zack Misso and Nick Kantor
+
+Basic Concept: To create a fully modular and multithreaded game engine for all genres of game development.
+
+Overview: The Game Engine is conposed of various subsystems with layers of abstraction on top of every 
+subsystem so every part of the engine can be easily replaced with minimal changes to the rest of the engine.
+This is an ambitious project and will probably not fulfill the initial goals, but whatever gets created 
+will be a cool end product. This, and the files in this directory, will be used as live documents
+documenting the structure and functionality of the engine. The purpose of this document is to breifly
+describe the role of each subsystem and how it will interact with the rest of the engine.
+
+List Of Major Sub-Systems ::
+Memory Sub-System
+Game Play Sub-System
+Physics Sub-System
+Graphics Sub-System
+Audio Sub-System
+Profiling Sub-System
+Threading Sub-System
+Resource Sub-System
+Cinematic Sub-System (Maybe)
+Filer Sub-System
+Scripting Sub-System
+Event Sub-System
+
+Memory SubSystem : This subsystem is responsible for allocating and freeing all of the needed memory for the
+Game Engine and any game running on top of the engine. It also provides an abstract model for how any game
+designer can implement their own Memory Management subsystem for their own game.
+
+Game Play SubSystem : This subsystem is responsible for handling all of the logic associated with the game
+developer's game logic. It organizes the scripts written by the game designer and runs them accordingly. It
+will also be responsible for interacting with the Event Sub-System when various game events need to be 
+generated or reacted to. 
+
+Physics Sub-System : This subsystem is responsible for all of the physics calculations related to the game instance running on the engine. It should also provide an abstract model for the game developer to implement
+their own physics subsystem.
+
+Graphics Sub-System : This subsystem is responsible for providing a layer of abstraction for the game 
+instance running to use to render the needed graphics. It should be compatible with the two major Graphics
+APIs currently available (OpenGl and DirectX) and it should also provide an abstract model for any future
+or mixed graphics APIs. This will most likly be the most difficult subsystem to implement perfectly modular.
+This subsystem will depend on the Game Play, Physics, Scripting, and Filer subsystems.
+
+Audio Sub-System : This subsystem is responsible for handling playing all audio required for a game instance.
+I (Zack) do not know much about C++ audio programming so this description will be empty for a while.
+
+Threading Sub-System : This subsystem is responsible for handling and managing the thread pool that runs the
+game. This subsystem needs to implement an abstract model for allowing the game developer to implement their
+own subsystem. This subsystem does not depend on any other subsystem (maybe Memory).
+
+Scripting Sub-System : This subsystem is responsible for handling the scripts written by the game designer.
+It will include a interpreter/compiler for the scripting language as well as a small library of functions
+that the user's scripts can call to interface with the engine. These calls still need to be designed.
+
+Profiling Sub-System : This subsystem is responsible for handling all debugging logic for the engine. This
+will probably not be included in the end product.
+
+Filer Sub-System : This subsystem is responsible for handling all File System IO. It should have logic to 
+parse needed files and write them as well. The Resource Sub-System will rely heavily on this.
+
+Resource Sub-System : This subsystem is a large container for all resources for the game.
+
+Event Sub-System : This subsystem handles the creation and execution of generated events for the game
+instance. Events are how the entities in a game interact. Ex. If the player walks in a room the game may make
+a "Entered Room" event. Events should be heavily defined by the scripting subsystem.
+
+Cinematic Sub-System : TBMade
