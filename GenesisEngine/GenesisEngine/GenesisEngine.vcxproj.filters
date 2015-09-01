@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\UI_Subsystem">
+      <UniqueIdentifier>{8d080c9d-d007-47f0-8181-f1fcbba7ae14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memory_Subsystem">
+      <UniqueIdentifier>{278edd4a-0be4-4478-b01b-33625ee45cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Filer_Subsystem">
+      <UniqueIdentifier>{2d926bc7-b138-4e25-9c5d-8ab4254b5df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scripting_Subsystem">
+      <UniqueIdentifier>{d069c6d9-9a16-4b83-804b-c66bfe3b4f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Threading_Subsystem">
+      <UniqueIdentifier>{a28cd4d4-9651-4761-9e08-90029dfad055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource_Subsystem">
+      <UniqueIdentifier>{9cd565e6-732b-415e-b5d3-0411d2955d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Event_Subsystem">
+      <UniqueIdentifier>{7ea9b847-84f0-481c-9b1c-419f2fed9b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Profiling_Subsystem">
+      <UniqueIdentifier>{54e79dbf-c69c-49db-8230-a4be2cdd200d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GamePlay_Subsystem">
+      <UniqueIdentifier>{26d4fe9f-6634-496a-af81-2f4acd0d0476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network_Subsystem">
+      <UniqueIdentifier>{b0dbb233-01c9-402f-b813-8d13365a683a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering_Subsystem">
+      <UniqueIdentifier>{dbfb2e73-1cff-45ea-89be-0283b225a364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio_Subsystem">
+      <UniqueIdentifier>{41473c2e-0648-40cc-9b4f-c2f288ea8658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory_Subsystem">
+      <UniqueIdentifier>{c0751b20-0ebd-4526-b4df-4123f4adfe45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Filer_Subsystem">
+      <UniqueIdentifier>{7293b25a-e547-4f91-b9a8-7ccd99a87a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network_Subsystem">
+      <UniqueIdentifier>{1f195e17-23e5-43bf-8f04-fb9a0d421097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Event_Subsystem">
+      <UniqueIdentifier>{a8a42d4c-c377-4a9d-8c83-83058fe69d97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GamePlay_Subsystem">
+      <UniqueIdentifier>{4cff8972-10cf-4a1b-8715-7765d7cc20ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Audio_Subsystem">
+      <UniqueIdentifier>{f86e3bfb-bfcc-46c4-bb6e-09d0b25483d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics_Subsystem">
+      <UniqueIdentifier>{436da23a-d665-4600-9caf-ac8bee4dcbed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering_Subsystem">
+      <UniqueIdentifier>{cfadef54-e705-4e6b-9bc7-b3276c7b4208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Profiling_Subsystem">
+      <UniqueIdentifier>{9f3cc963-28c1-4f75-8d59-acc0c6b4c948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource_Subsystem">
+      <UniqueIdentifier>{716f0e01-3bb9-4026-93ea-99ee3d35b564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Threading_Subsystem">
+      <UniqueIdentifier>{20dd6017-fef0-4016-a67a-deb8fdad50f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scripting_Subsystem">
+      <UniqueIdentifier>{20a000ff-a506-4b90-984a-c4b72da2a9e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI_Subsystem">
+      <UniqueIdentifier>{57e3811d-5e23-493e-a6d0-7be2a6f80af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI_Subsystem">
+      <UniqueIdentifier>{9bbdb388-84b7-46b6-ac11-8fdcbe2f73ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI_Subsystem">
+      <UniqueIdentifier>{f3fe6b39-5f52-4ad1-851d-b16fe0bfd1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics_Subsystem">
+      <UniqueIdentifier>{40d75b09-8634-4e9b-be21-4ea77fa2347a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\datastructures">
+      <UniqueIdentifier>{b3765ad3-aca1-4cd3-a9cb-a216fbc7c097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\datastructures">
+      <UniqueIdentifier>{00d262d6-506d-4da9-8830-aa263c63d728}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory_Subsystem.h">
+      <Filter>Header Files\Memory_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Filer_Subsystem.h">
+      <Filter>Header Files\Filer_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Network_Subsystem.h">
+      <Filter>Header Files\Network_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_Subsystem.h">
+      <Filter>Header Files\Event_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay_Subsystem.h">
+      <Filter>Header Files\GamePlay_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio_Subsystem.h">
+      <Filter>Header Files\Audio_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AI_Subsystem.h">
+      <Filter>Header Files\AI_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics_Subsystem.h">
+      <Filter>Header Files\Physics_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Subsystem.h">
+      <Filter>Header Files\UI_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting_Subsystem.h">
+      <Filter>Header Files\Scripting_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Threading_Subsystem.h">
+      <Filter>Header Files\Threading_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource_Subsystem.h">
+      <Filter>Header Files\Resource_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiling_Subsystem.h">
+      <Filter>Header Files\Profiling_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering_Subsystem.h">
+      <Filter>Header Files\Rendering_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>Header Files\datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory_Allocator.h">
+      <Filter>Header Files\Memory_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Profiling_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionEngine.h">
+      <Filter>Header Files\Physics_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="CullingManager.h">
+      <Filter>Header Files\Physics_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="array.h">
+      <Filter>Header Files\datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>Header Files\datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>Header Files\datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix2.h">
+      <Filter>Header Files\datastructures</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread_Manager.h">
+      <Filter>Header Files\Threading_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Header Files\Threading_Subsystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenesisEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory_Subsystem.cpp">
+      <Filter>Source Files\Memory_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Subsystem.cpp">
+      <Filter>Source Files\UI_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripting_Subsystem.cpp">
+      <Filter>Source Files\Scripting_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Threading_Subsystem.cpp">
+      <Filter>Source Files\Threading_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource_Subsystem.cpp">
+      <Filter>Source Files\Resource_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiling_Subsystem.cpp">
+      <Filter>Source Files\Profiling_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering_Subsystem.cpp">
+      <Filter>Source Files\Rendering_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics_Subsystem.cpp">
+      <Filter>Source Files\Physics_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="AI_Subsystem.cpp">
+      <Filter>Source Files\AI_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio_Subsystem.cpp">
+      <Filter>Source Files\Audio_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay_Subsystem.cpp">
+      <Filter>Source Files\GamePlay_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Event_Subsystem.cpp">
+      <Filter>Source Files\Event_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Network_Subsystem.cpp">
+      <Filter>Source Files\Network_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Filer_Subsystem.cpp">
+      <Filter>Source Files\Filer_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2.cpp">
+      <Filter>Source Files\datastructures</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory_Allocator.cpp">
+      <Filter>Source Files\Memory_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionEngine.cpp">
+      <Filter>Source Files\Physics_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CullingManager.cpp">
+      <Filter>Source Files\Physics_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="array.cpp">
+      <Filter>Source Files\datastructures</Filter>
+    </ClCompile>
+    <ClCompile Include="stack.cpp">
+      <Filter>Source Files\datastructures</Filter>
+    </ClCompile>
+    <ClCompile Include="queue.cpp">
+      <Filter>Source Files\datastructures</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix2.cpp">
+      <Filter>Source Files\datastructures</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread_Manager.cpp">
+      <Filter>Source Files\Threading_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Source Files\Threading_Subsystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
