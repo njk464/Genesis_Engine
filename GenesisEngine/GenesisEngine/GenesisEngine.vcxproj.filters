@@ -103,6 +103,12 @@
     <Filter Include="Source Files\datastructures">
       <UniqueIdentifier>{00d262d6-506d-4da9-8830-aa263c63d728}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Test_Subsystem">
+      <UniqueIdentifier>{54f26d8f-83a2-4cec-8c25-799e105ade5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Test_Manager">
+      <UniqueIdentifier>{f6d2c91a-2eb1-4487-956a-a483f3043add}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -189,6 +195,18 @@
     <ClInclude Include="Task.h">
       <Filter>Header Files\Threading_Subsystem</Filter>
     </ClInclude>
+    <ClInclude Include="Test_Manager.h">
+      <Filter>Header Files\Test_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Header Files\Test_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures_Test.h">
+      <Filter>Header Files\Test_Subsystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory_Test.h">
+      <Filter>Header Files\Test_Subsystem</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -268,6 +286,18 @@
     </ClCompile>
     <ClCompile Include="Task.cpp">
       <Filter>Source Files\Threading_Subsystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Manager.cpp">
+      <Filter>Source Files\Test_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files\Test_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructures_Test.cpp">
+      <Filter>Source Files\Test_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory_Test.cpp">
+      <Filter>Source Files\Test_Manager</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
