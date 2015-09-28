@@ -22,7 +22,14 @@ int main()
 {
 	std::cout << "Hello Genesis";
 	// Create and initialize every subsystem
+	// to be implemented
 
-    return 0;
+	// Load in user's game data
+	// to be implemented
+
+	// Start the Task Schedular
+	// to be implemented
+
+	// this should never terminate
+  return 0;
 }
-

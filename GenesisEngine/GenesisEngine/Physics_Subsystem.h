@@ -11,6 +11,7 @@ private:
 public:
 	static Physics_Subsystem* initializeSubsystem();
 	static void shutDownSubsystem();
+	// getter methods
 	CollisionEngine* getCollisionEngine();
 	CullingManager* getCullingManager();
 };

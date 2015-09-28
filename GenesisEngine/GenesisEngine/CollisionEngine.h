@@ -3,5 +3,6 @@
 class CollisionEngine {
 private:
 public:
-	// to be implemented
+	virtual Array<Collision*>* findCollisions(Array<PhysicsBody*> entities);
+	virtual void handleCollision(Array<Collision*> collisions);
 };

@@ -1,7 +1,9 @@
 #include "stdafx.h"
+#include <string>;
+#include <iostream>
 
 class Logger {
 private:
 public:
-	// to be implemented
+	static void Log(string str);
 };
